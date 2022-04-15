@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Animals</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">@string/app_name</string>
+
+    <string name="version">"Version: "</string>
+    <string name="versionCode">Build #</string>
+    <string name="license">"License: "</string>
+    <string name="privacy">Privacy policy</string>
+    <string name="sourceCode">Source code</string>
+    <string name="about">About</string>
+    <string name="animal_name">Name</string>
+    <string name="animal_type">Animal type</string>
+    <string name="animal_photo_alternative_text">Animal photo</string>
+    <string name="title_activity_animalInfo">About animal</string>
+    <string name="animal_photo_url">Picture URL (https://…)</string>
+    <string name="action_save">Save</string>
+    <string name="dialog_fail_download_title">Failed to download data</string>
+    <string name="retry">Try again</string>
+    <string name="activity_animal_add">New animal</string>
+    <string name="action_update">Refinish</string>
+    <string name="developer">"Developer: "</string>
+    <string name="developer_fio">Chivarzin A. E.</string>
+    <string name="developer_group">"Group: "</string>
+    <string name="developer_group_value">IU5Ts-82B</string>
+    <string name="action_delete">Remove</string>
+    <string name="open_API">Open API</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="dialog_delete_title">Remove animal?</string>
+    <string name="fail_add_animal">Unable to add new animal!</string>
+    <string name="send_logcat">Send logcat</string>
+    <string name="dialog_fail_download_text">Check if your Android device (or emulator) is connected to the internet and try again.\nThe app currently only supports HTTPS traffic.</string>
+    <string name="license_button">View license</string>
+    <string name="dialog_delete_text">The current animal will be permanently deleted for all app users. Do you really want to continue?</string>
+    <string name="onlyForDevelopers">This feature is for developers only!</string>
+    <string name="unable_get_data">Failed to get data!</string>
+</resources>

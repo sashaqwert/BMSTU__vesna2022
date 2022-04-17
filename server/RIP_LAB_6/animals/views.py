@@ -7,7 +7,7 @@ from .models import Animal
 # Create your views here.
 class AnimalViewSet(viewsets.ModelViewSet):
     """
-    API endpoint, который позволяет просматривать и редактировать акции компаний
+    API endpoint, который позволяет просматривать и редактировать информацию о животных
     """
     # queryset всех пользователей для фильтрации по дате последнего изменения
     queryset = Animal.objects.all()

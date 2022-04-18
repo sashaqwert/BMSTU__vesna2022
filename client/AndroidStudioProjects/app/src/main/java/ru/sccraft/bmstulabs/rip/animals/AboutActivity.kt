@@ -108,19 +108,19 @@ class AboutActivity : AppCompatActivity(R.layout.activity_about) {
     }
 
     fun privacy(view: View) {
-        val ссылка_на_политику_конфиденциальности = Uri.parse("https://github.com/sashaqwert/BMSTU_vesna2022/blob/master/Privacy.md")
+        val ссылка_на_политику_конфиденциальности = Uri.parse("https://github.com/sashaqwert/BMSTU__vesna2022/blob/master/Privacy.md")
         val открыть_политику_конфиденциальности_в_браузере = Intent(Intent.ACTION_VIEW, ссылка_на_политику_конфиденциальности)
         startActivity(открыть_политику_конфиденциальности_в_браузере)
     }
 
     fun viewLicense(view: View) {
-        val ссылка_на_лицензию = Uri.parse("https://github.com/sashaqwert/BMSTU_vesna2022/blob/master/LICENSE")
+        val ссылка_на_лицензию = Uri.parse("https://github.com/sashaqwert/BMSTU__vesna2022/blob/master/LICENSE")
         val открыть_лицензию_в_браузере = Intent(Intent.ACTION_VIEW, ссылка_на_лицензию)
         startActivity(открыть_лицензию_в_браузере)
     }
 
     fun viewSourceCode(view: View) {
-        val ссылка_на_исходный_код = Uri.parse("https://github.com/sashaqwert/BMSTU_vesna2022")
+        val ссылка_на_исходный_код = Uri.parse("https://github.com/sashaqwert/BMSTU__vesna2022")
         val открыть_исходный_код_в_браузере = Intent(Intent.ACTION_VIEW, ссылка_на_исходный_код)
         startActivity(открыть_исходный_код_в_браузере)
     }
